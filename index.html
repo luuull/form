@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <div class="bg">
+            <h1>Formulário</h1>
+            <form method="post">
+                <fieldset>
+                    <div>
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" placeholder="seu nome">
+                    </div>
+                    <div>
+                        <label for="mail">E-mail:</label>
+                        <input type="email" id="mail" placeholder="seu e-mail">
+                    </div>
+                    <div>
+                        <label for="assunto">Assunto:</label>
+                        <select name="assunto" id="assunto">
+                            <option value="N" selected></option>
+                            <option value="S">Sugestão</option>
+                            <option value="R">Reclamação</option>
+                            <option value="E">Elogio</option>
+                        </select>
+                    </div>
+                    <div>
+                        
+                    </div>
+                    <div>
+                        <label for="msg">Mensagem:</label>
+                        <textarea id="msg"></textarea>
+                    </div>
+                    <div class="button">
+                        <input class="btn btn-primary" id="button" type="button" value="Enviar">
+                    </div>
+                </fieldset>                
+            </form>
+        </div>  
+        <script src="./js/script.js"></script> 
+    </body>
+</html>
