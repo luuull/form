@@ -47,7 +47,7 @@ input[type=text], input[type=email], textarea, option, select {
     outline: none;
 }
 
-input[type=button] {
+input[type=submit] {
     background-color: rgb(166, 118, 211);
     color: rgb(58, 46, 131);
     border-color: transparent;
