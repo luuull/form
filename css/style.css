@@ -39,12 +39,17 @@ label {
     opacity: 0.8;
 }
 
+textarea {
+    height: 50px;
+}
+
 input[type=text], input[type=email], textarea, option, select {
     background-color: rgb(177, 183, 212);
     color: rgb(58, 46, 131);
     border-color: transparent;
     border-radius: 5px;
     outline: none;
+    width: 145px;
 }
 
 input[type=submit] {
@@ -52,6 +57,10 @@ input[type=submit] {
     color: rgb(58, 46, 131);
     border-color: transparent;
     border-radius: 5px;
+}
+
+.msg {
+    vertical-align: top;
 }
 
 .bg {
